@@ -52,6 +52,16 @@
             "product": "{{product}}"
           }
         },
+        "variant_picker_76wYdf": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "block",
+            "size_chart_page": "guide-de-taille"
+          }
+        },
         "buy_buttons_FAYgka": {
           "type": "buy_buttons",
           "settings": {
@@ -77,6 +87,7 @@
         "liquid_a8AbLB",
         "quantity_selector",
         "kaching_bundles_app_block_rEmb3m",
+        "variant_picker_76wYdf",
         "buy_buttons_FAYgka",
         "conversion_bear_trust_badges_widget_aqX6yC"
       ],
