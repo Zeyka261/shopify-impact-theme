@@ -56,6 +56,10 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "conversion_bear_trust_badges_widget_aqX6yC": {
+          "type": "shopify://apps/conversion-bear-trust-badges/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
+          "settings": {}
         }
       },
       "block_order": [
@@ -66,7 +70,8 @@
         "description",
         "quantity_selector",
         "kaching_bundles_app_block_rEmb3m",
-        "buy_buttons_FAYgka"
+        "buy_buttons_FAYgka",
+        "conversion_bear_trust_badges_widget_aqX6yC"
       ],
       "settings": {
         "full_width": true,
