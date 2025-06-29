@@ -52,16 +52,6 @@
             "product": "{{product}}"
           }
         },
-        "variant_picker_76wYdf": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "block",
-            "size_chart_page": "guide-de-taille"
-          }
-        },
         "buy_buttons_FAYgka": {
           "type": "buy_buttons",
           "settings": {
@@ -76,6 +66,45 @@
         "conversion_bear_trust_badges_widget_aqX6yC": {
           "type": "shopify://apps/conversion-bear-trust-badges/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
           "settings": {}
+        },
+        "separator_gfMrGG": {
+          "type": "separator",
+          "settings": {}
+        },
+        "collapsible_text_GF8HPp": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Pourquoi choisir les chaussures OrthoFlex® ?",
+            "content": "<p>Les OrthoFlex® sont pensées pour vous offrir un confort optimal et un soutien renforcé à chaque pas. Conçues pour affronter tous les terrains, elles combinent une semelle amortissante, une membrane imperméable et un maintien orthopédique pour réduire la fatigue et protéger vos articulations. Que ce soit pour des randonnées en pleine nature ou pour vos déplacements quotidiens, elles assurent légèreté, stabilité et protection dans toutes les conditions.<br/><br/></p>"
+          }
+        },
+        "collapsible_text_e3r9tf": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Livraison & Retours",
+            "content": "<p><strong>Livraison offerte</strong> : Cette semaine, la livraison est <strong>100 % gratuite</strong> sur toutes les commandes !</p><p><strong>Traitement</strong> : Toutes les commandes sont traitées sous 1<strong> à 2 jours</strong>.</p><p><strong>Délai de livraison estimé</strong> : Votre commande sera livrée sous <strong>2 à 5 jours ouvrés</strong>.</p><p><strong>Suivi inclus</strong> : Dès l’expédition, vous recevrez un <strong>numéro de suivi</strong> pour suivre votre livraison facilement.</p><p><strong>Retours</strong></p><p>Vous disposez de <strong>30 jours</strong> après la réception de votre commande pour nous retourner le colis si vous n’êtes pas satisfait.</p><p><strong>Besoin d’aide ?</strong><br/><br/>Pour toute question sur votre commande, la livraison ou un retour, contactez-nous à info@jardinvillage.com<br/></p><p>Nous faisons de notre mieux pour expédier votre commande rapidement et apprécions votre patience en période de forte demande</p>"
+          }
+        },
+        "collapsible_text_dNaPt4": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Soulagent-elles vraiment les douleurs, même après de longues marches ?",
+            "content": "<p>Absolument ! Grâce à leur <strong>semelle ergonomique amortissante</strong>, les OrthoFlex® réduisent la fatigue et soulagent efficacement les douleurs liées aux <strong>hallux valgus, fasciite plantaire</strong> ou pieds sensibles.<br/><br/>Elles sont conçues pour un usage prolongé sans inconfort, <strong>même après plusieurs heures de marche.</strong></p>"
+          }
+        },
+        "collapsible_text_TqLcDj": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Sur quels types de terrains peut-on utiliser les OrthoFlex®",
+            "content": "<p>Les <strong>OrthoFlex®</strong> sont conçues pour s'adapter à tous les types de terrains : montagne, forêt, sentiers rocheux ou milieux urbains.<br/><br/>Elles assurent un excellent maintien et un confort durable, parfaits pour vos longues randonnées.</p>"
+          }
+        },
+        "collapsible_text_YmyBD8": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Peut-on utiliser les OrthoFlex® au quotidien en milieu urbain ?",
+            "content": "<p>Absolument ! Leur design polyvalent permet de les porter aussi bien pour vos randonnées que pour vos trajets quotidiens en ville.</p>"
+          }
         }
       },
       "block_order": [
@@ -87,13 +116,18 @@
         "liquid_a8AbLB",
         "quantity_selector",
         "kaching_bundles_app_block_rEmb3m",
-        "variant_picker_76wYdf",
         "buy_buttons_FAYgka",
-        "conversion_bear_trust_badges_widget_aqX6yC"
+        "conversion_bear_trust_badges_widget_aqX6yC",
+        "separator_gfMrGG",
+        "collapsible_text_GF8HPp",
+        "collapsible_text_e3r9tf",
+        "collapsible_text_dNaPt4",
+        "collapsible_text_TqLcDj",
+        "collapsible_text_YmyBD8"
       ],
       "settings": {
         "full_width": true,
-        "show_fixed_add_to_cart": true,
+        "show_fixed_add_to_cart": false,
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
@@ -107,28 +141,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 6,
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "You may also like",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
       }
     },
     "17511651029a9de467": {
@@ -159,7 +171,6 @@
   },
   "order": [
     "main",
-    "related-products",
     "17511651029a9de467"
   ]
 }
